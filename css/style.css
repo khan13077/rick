@@ -1,0 +1,29 @@
+.img{
+  width: 200px;
+  height: 200px;
+}
+.img::after{
+    content: "";
+    width: 80px;
+    height: 50px;
+    border-bottom: solid 61px #6ce2ff;
+    border-left: solid 59px transparent;
+    border-right: solid 0px transparent;
+    position: relative;
+    bottom: 225px;
+    left: 77px;
+}
+.img::before{
+    content: "“Listen, Morty, I hate to break it to you, but what people call ‘love’ is just a chemical reaction that compels animals to breed.”";
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: #6ce2ff;
+    height: 100px;
+    width: 450px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 59px;
+    left: 270px;
+}
